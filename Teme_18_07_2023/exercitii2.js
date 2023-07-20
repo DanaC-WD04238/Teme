@@ -4,7 +4,7 @@
 
 const printShowString = function(textString) {
    
-    if(typeof textString === 'string' && textString !== 'string') {
+    if(typeof textString === 'string') {
         return true;
     }else {
         return false;
@@ -28,7 +28,7 @@ console.log(number);
 //  (ex getNumbersList(3) -> [1,2,3])
 
 const getNumbersList = function(numarMax) {
-    let num = [];
+    const num = [];
     for(let i = 0; i <= numarMax; i++){
         num.push(i);
     }
@@ -57,7 +57,7 @@ console.log(age);
 
 const upperCaseLetter = ['Html', 'Javascript', 'Java', 'Css', 'Git'];
 const getLowerCaseList = function(upperCaseLetter) {
-    let litereMici = [];
+    const litereMici = [];
     for(i = 0; i < upperCaseLetter.length; i++) {
         litereMici.push(upperCaseLetter[i].toLowerCase());
       
@@ -131,7 +131,7 @@ function getRaisePowerList(numberList, power) {
 
 
   function getArgumentsList() {
-    let argumentsList = [];
+    const argumentsList = [];
     
     for (var i = 0; i < arguments.length; i++) {
       argumentsList.push(arguments[i]);
@@ -149,7 +149,7 @@ function getRaisePowerList(numberList, power) {
 
 
 function getFactorial(n) {
-    let factorial = 1;
+    const factorial = 1;
   
     for (let i = 1; i <= n; i++) {
       factorial *= i;
@@ -165,20 +165,30 @@ function getFactorial(n) {
 //   (fara sa folositi array.sort). filterNumbersList([1,5,3,3null, 'hello']) -> [1,3,5];
 
 
-function filterNumbersList(list) {
+function filterNumbersList(lista) {
   const distinctNumbers = [];
-  for (let i = 0; i < list.length; i++) {    
-    if (typeof currentElement === 'number' && !isNaN(currentElement)) {
-      distinctNumbers.push(currentElement);     
+
+  for (let i = 0; i < lista.length; i++) {
+    const currentElement = lista[i];
+
+    if (typeof currentElement === 'number' && !isNaN(currentElement)) {     
+      if (!distinctNumbers.includes(currentElement)) {
+        distinctNumbers.push(currentElement);
+      }
+    }
+  }  
+  for (let i = 0; i < distinctNumbers.length - 1; i++) {
+    for (let j = 0; j < distinctNumbers.length - i - 1; j++) {
+      if (distinctNumbers[j] > distinctNumbers[j + 1]) {
+        let temp = distinctNumbers[j];
+        distinctNumbers[j] = distinctNumbers[j + 1];
+        distinctNumbers[j + 1] = temp;
+      }
     }
   }
-  for( let i = 0; i < list.length - 1; i++) {
-    if(distinctNumbers[i] > distinctNumbers[list.length - 1]) {
-      distinctNumbers[i] = distinctNumbers[list.length - 1];
-    }
-    return distinctNumbers;
-  }
+  return distinctNumbers;
 }
+
 const mixedList = [40, 20, 2, 'Braila', 'pisica', 80, 1, 'pisica', 3, 67];
 const result = filterNumbersList(mixedList);
-console.log(result);
+console.log(result); 
