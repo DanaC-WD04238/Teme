@@ -1,0 +1,12 @@
+1. Scrieti o functie cu un parametru textString care sa o printeze pe consola daca este de tip string
+2. Scrieti o functie care sa returneze un numar random de la 1-100 getRandomNumber() -> 40
+3. Scrieti o functie care primeste un parametru numarMax, si pe baza acelui numar sa returneze un array cu toate numerele naturale pana la acel numar (ex getNumbersList(3) -> [1,2,3])
+4. Scrieti o functie care verifica daca varsta unei persoane este mai mare de 18 ani. ex: isAboveAgeLimit(29) -> true
+5. Scrieti o functie care primeste u array de strings ca si argumente si returneaza un array cu toate stringurile scrise cu litere mici getLowerCaseList(['Html', 'Javascript', 'Java']) -> ['html', 'javascript', 'java']
+6. Scrietei o functie care returneaza o functie care returneaza o alta functie. Fiecare functie sa aiba si un console.log1,2, si 3. Sa dati call la toate functiile astfel incat fiecare console.log din fiecare functie sa apara.
+7. Scrieti o functie care sa introduca un element de html in pagina, si de fiecare data cand este apelata functia sa fie introdusa inca una. (un paragraf, sau un div)
+8. Scrieti o functie care sa primeasca 2 argumente (un array de numere,  valoarea la puterea) si sa returneze un array cu fiecare numar la puterea  raisePowerList([1,2,3], 2) -> [1,4,9];
+9. Scrieti o functie care sa primeasca un numar nedefinit de argumente, iar din toate argumentele primite in interiorul functiei sa se creeze un array si sa il returneze (hint: folositi-va de arguments, (folositi sintaxa function aici)
+getArgumentsList(1,5,6,7,8,9) -> [1,5,6,7,8,9]
+10. Incercati sa faceti o functie recursiva (care se apeleaza pe ea insusi) care sa returneze rezultatul unui numar factorial getFactorial(3) -> 6. Daca nu iasa recursiv, puteti face cu un loop.
+11. Scrieti o functie care primeste ca argument o lista si returneaza o lista filtrata, in care raman doar numerele distincte puse in ordine crescatoare (fara sa folositi array.sort). filterNumbersList([1,5,3,3null, 'hello']) -> [1,3,5];

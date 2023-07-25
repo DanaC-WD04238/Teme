@@ -1,0 +1,25 @@
+
+1. Creați o variabilă numită age și atribuiți-i o valoare numerică reprezentând vârsta unei persoane. Utilizați o instrucțiune "if" pentru a verifica dacă persoana este eligibilă pentru a conduce. Dacă vârsta este mai mare sau egală cu 18, afișați mesajul "Puteți conduce!", altfel afișați mesajul "Nu puteți conduce încă."
+
+
+2. Creați două variabile, numar1 și numar2, și atribuiți-le valori numerice diferite. Utilizați o instrucțiune "if-else" pentru a verifica care dintre cele două numere este mai mare și afișați mesajul corespunzător.
+
+
+3. Creați o variabilă temperatura și atribuiți-i o valoare numerică reprezentând temperatura în grade Celsius. Utilizați o instrucțiune "if-else" pentru a verifica dacă temperatura este mai mare de 30 de grade Celsius. Dacă este, afișați mesajul "Este o zi caldă!", altfel afișați mesajul "Temperatura este moderată."
+
+
+4. Creați o variabilă numar și atribuiți-i o valoare numerică. Utilizați o instrucțiune "if-else" pentru a verifica dacă numărul este pozitiv, negativ sau zero. Afișați mesajul corespunzător în funcție de rezultat.
+
+
+5. Verificați dacă o variabilă numită variabila este definită și diferită de null. Afișați mesajul "Variabila este definită" dacă este adevărat și "Variabila nu este definită" în caz contrar.
+
+
+6. Verificați dacă o variabilă numită numar este mai mare decât 0 și mai mică sau egală cu 10. Afișați mesajul "Numărul este cuprins între 0 și 10" dacă este adevărat și "Numărul nu este în intervalul specificat" în caz contrar.
+
+
+7. Creați o variabilă nota și atribuiți-i o valoare numerică reprezentând o notă obținută la un test. Utilizați o instrucțiune "if-else" pentru a afișa un mesaj corespunzător, în funcție de valoarea notei:
+    * Dacă nota este mai mare sau egală cu 90, afișați mesajul "Excelent!"
+    * Dacă nota este între 80 și 89, afișați mesajul "Foarte bine!"
+    * Dacă nota este între 70 și 79, afișați mesajul "Bine."
+    * Dacă nota este între 60 și 69, afișați mesajul "Satisfăcător."
+    * Dacă nota este mai mică de 60, afișați mesajul "Nu ați trecut."

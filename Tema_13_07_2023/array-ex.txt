@@ -1,0 +1,14 @@
+Incercati sa nu folositi metode speciale al arrays (filter, map, reduce etc....care ar usura munca). Folositi doar for loop si array push, pop, shift, unshift..ce am invatat data trecuta. 
+
+1. Definiti un array care sa contina o lista de judete, un alt array o lista de cifre reprezentand numarul populatiei judetelor. Faceti o iterare in care sa se afiseze denumirea judetului cu populatia asociata.
+
+2. Scrie o functie care primeste un array de numere si returnează suma tuturor numerelor din array, calculeaza media lor aritmetica cat si media lor geometrica.
+
+3.: Scrie o functie care gaseste si returneaza valoarea maxima dintr-un array de numere, dar si valoarea minima
+
+4. Scrie o functie care primeste un array de numere si returneaza un array ce contine mai multe array-uri grupate in functie de (numere pare, numere impare, numere divizibile cu 5) numarul divizibil cu 5 are prioritate in fata celor numere pare si numere impare.
+
+5. Scrie o functie care primeste un array si returneaza un nou array care contine doar valorile distincte din array-ul original
+
+7. Scrie o functie care primeste un array de numere si un interval specificat (valoare minima si valoare maxima) si returneaza un nou array care contine doar valorile din intervalul specificat.
+
