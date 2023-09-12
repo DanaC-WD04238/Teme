@@ -1,0 +1,26 @@
+Exercitii Array Methods.
+
+1. Returnati un array nou cu fiecare element modificat din array-ul existent astfel incat ['a','b','c','d','e'] -> [97,98,99,100,101] (echivalenta in ASCII al cifrelor -> numere) (folositi array.map)
+
+2. Realizati o filtrare al array-ului [[], [1,23], [],[],[1,3] -> astfel incat sa ramana doar valorile [[1,23], [1,3]] (folositi array.filter)
+
+3. Returnati o propozitie string dintr-un array de string-uri ['A', 'fost', 'o', 'zi', 'frumoasa'] folosindu-va de array.reduce
+
+4. Scrieti o functie care primeste un arr ca si parametru si o variabila de marimea taierii incepand de la 0 trimArr(arr, maxCut), ex:
+	trimArr([1,2,3,4,5], 2) -> [3,4,5] (folositi array.slice)
+
+5. Scrieti o functie care primeste 2 arrays ca si param concatArr(arr1, arr2) si returneaza un array concatenat. ex: concatArr([1,2,3], ['a','b','c']) ->
+	([1,2,3,'a','b','c']) cautati voi ce puteti folosi (un array method).
+
+
+Exercitiu obiect.
+
+1. Faceti un obiect de tip masina, care sa aiba proprietatile: marca: string, anulFabricatiei: number, culoare: string, vitezaMax: number, si urmatoarele metode: getDetails() -> sa returneze un string cu toate detaliile masinii, getYearsOfExistance ( anul curent - anulFabricatiei)
+
+2. Faceti 4 astfel de obiecte masini si stocati-le intr-o lista  masiniLista si iterati toate obiectele si faceti console.log la marca. (4 marci in consola)
+
+3. Faceti o iteratie astfel incat sa adaugati o proprietate noua la toate obiectele, taraDeProvenienta: 'string'.
+
+4. Faceti o filtrare din care sa rezulte o lista noua care sa va dea doar obiectele al caror proprietate getYearsOfExistance > 10.
+
+
