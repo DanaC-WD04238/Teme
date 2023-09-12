@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Tema-4.css">
+    <title>Document</title>
+</head>
+<body>
+    <form id="countryForm">
+        <label for="tara">Tara:</label>
+        <input type="text" id="tara" required>
+        
+        <label for="imagine">Imagine:</label>
+        <input type="file" id="imagine" accept="image/*" required>
+        
+        <label for="populatie">Populatie:</label>
+        <input type="number" id="populatie" required>
+        
+        <label for="pib">PIB ($):</label>
+        <input type="number" id="pib" required>
+        
+        <label for="descriere">Descriere:</label>
+        <textarea id="descriere" required></textarea>
+        
+        <button type="submit" id="submitBtn">Submit</button>
+      </form>
+    
+    <div id="countryCards"></div>
+
+    <hr>
+    
+    <h2>Filtrare țări</h2>
+    <label for="filtrarePib">Țări cu PIB mai mare de:</label>
+    <input type="number" id="filtrarePib">
+  
+    <label for="filtrarePopulatie">Țări cu populație mai mare de:</label>
+    <input type="number" id="filtrarePopulatie">
+
+    <ul id="filteredCountries"></ul>
+    <button id="saveBtn">Save to Local Storage</button>
+    <script src="./Tema-4.js"></script>
+</body>
+</html>

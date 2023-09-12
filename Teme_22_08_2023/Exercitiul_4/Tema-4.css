@@ -1,0 +1,15 @@
+
+.card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    width: calc(20% - 40px);  
+    text-align: center;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+   
+  }

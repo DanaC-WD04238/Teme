@@ -1,0 +1,60 @@
+Tema
+
+1. Creati o clasa de tip Articol care sa contina:
+Proprietati:
+- Id (string) 
+- Titlu (string) 
+- Author (string) 
+- Date created (date)
+- Descriere (string)
+- Image (string src imaginii)
+- Cuvinte cheie (o lista de strings) (Folositi Set) sa fie unice valorile
+(toate proprietatile sa fie private)
+- Sa existe si un constructor cu initializarea initiala
+
+2. Adaugati metodele: 
+Adaugati metode de getters pentru:
+- titlu
+- author
+- date created
+- descriere
+- image
+- cuvinte cheie
+
+Adaugati metode de setters pentru: 
+ - titlu
+ - autor
+ - date updated
+ - descriere
+ - image
+ - cuvinte cheie
+
+Adaugati metoda de creeare tag-ului de html (doar de creeare nu si de inserare in dom)
+
+createHtmlEl()
+- Sa returneze un tag de <articol> care sa contina:
+ img -> imaginea, 
+ h2 -> titlu
+ span-> date created, 
+ span -> author, 
+ p -> descrierea
+ul list -> tag-uri 
+
+
+3. Vom avea 2 pagini (Pagina de stiri  si pagina de administrare unde vom adauga articole printr-un formular)
+Prima pagina.
+- Pagina de stiri home, acolo vom itera o lista de articole salvate (salvate in anterior localstorage)
+- Iterati lista si prezentati articolele sub forma de coloane (Digi24, New York Times..etc)
+ (Sa aveti un container, si sa va folositi de createHtmlEl care va returneaza 
+elementul sa il appenduiti la acel container)
+
+4. A 2a pagina
+- Adaugare stire (Un formular unde sa adaugam detaliile stirei respective).
+- Dupa ce salvati stirea sa se adauga la Local Storage (de unde o sa incarce pagina de stiri lista)
+
+5. Extra (adaugati un input de filtrare care sa filtreze articolele dupa tag-uri) 
+Daca contine tag-ul din input sa afiseze articolul sau nu. 
+
+
+
+

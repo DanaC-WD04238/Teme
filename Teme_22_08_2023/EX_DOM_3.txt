@@ -1,0 +1,44 @@
+
+Exercitiu 1 (dificultate ușoară)
+
+Creati un formular:
+Nume: input de tip text
+Prenume: input de tip text
+Varsta: input de tip number
+- Adaugati un buton de submit
+- Faceți o funcție care sa preia datele din formular și sa le afișeze în consola
+- Adaugati și validare (sa nu se poată face submit dacă nu sunt toate completate)
+- Cuplați funcția la submitul butonului
+
+Exercitiu 2
+Continuarea ex. 1
+- Mai faceți o funcție care sa creeze o bucata de html (h1 - nume, prenume; h2-varsta)
+- Cuplați funcția în funcția de submit anterioară astfel încât sa atașeze noua persoana în pagina
+- Adăugați 10 persoane în pagina, aranjati-le folosindu-va de style flex (mai multe coloane)
+
+Exercitiu 3
+Creați o lista de obiecte de tip animal. { specie: string, name: string, age: number }. 
+- Adăugați un număr de animale în lista
+- Și inserați în pagina detaliile fiecărui animal (folosiți ce tag-uri doriți)
+- Adaugati un buton de save (care sa salveze lista voastră în Local storage)
+ 
+Exercitiu 4 (dificultate medie)
+Creati un formular:
+Tara: un input de tip text 
+Imagine: un input de tip file care sa facă upload la imagine (steagul Tarii)
+(Imaginile puteți sa le adăugați din folderul în care se afla pagina)
+Populatie: input de tip number
+PIB: un input de tip number in $
+Description: textarea cu o scurta descriere al Tarii
+- Creați un card de html cu imaginea Tarii la nivel de header, titlul  Tarii,  descrierea mai jos
+- Adaugati și validare (sa nu se poată face submit dacă nu sunt toate completate)
+- Adăugați 5 astfel de tari
+
+Exercițiu 5 (didicultate sporita)
+Continuare Exercițiu 4.
+- După ce dati submit sa adaugati și intr-o lista aceasta țară
+- Sa creati o sectiune mai jos (un input care sa primească un număr)
+ cu label -> Tari cu PIB mai mare de. 
+ Și la inserare sa se facă filtrare cu țările care au pibul egal sau mai mare 
+-  Adăugați și unul pentru populație
+- Filtrarile sa tina cont una de cealaltă

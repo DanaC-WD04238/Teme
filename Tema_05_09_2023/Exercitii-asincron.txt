@@ -1,0 +1,22 @@
+Exercitii
+
+
+1. Adaugati un h1 cu numele vostru folosindu-va de Promise si o intarziere cu setTimeout. 
+Dupa afisarea h1-ului sa apara un prompt in care va cere sa ghichiti varsta persoanei 
+(varsta voastra), daca nimereste varsta sa apara un h2 cu varsta voastra, 
+daca nu atunci sa nu mai apara nimic.
+
+2. 
+a. Avem un sir de imagini per coloane (3 coloane, 3 randuri) de poze cu animale.
+ Faceti astfel incat sa apara
+imaginea dupa imagine cu o intarziere de 1 secunda timp (folositi promisiune si setTimeout)
+
+b. Faceti astfel incat functia sa primeasca o variabila de n de timp, 
+astfel timpul de apartitie sa fie personalizat.
+
+
+3. Creati un cronometru folosindu-va de setInterval. 
+Sa existe un element de html care sa afiseze timpul actualizat, 
+un input field unde sa puteti adauga secundele si un buton care sa porneasca cronometru.
+
+

@@ -1,0 +1,61 @@
+1. Pagina web
+
+Faceti o pagina web simpla care sa contina informatii despre voi ca si viitori programatori. 
+(Puteti face si un design decent).
+
+(Puneti dummy data in faza initiala, 
+datele voastre personale le veti introduce ulterior prin JS si DOM)
+
+Titlu heading care sa contina: 'John Doe'.
+In dreapta titlului o iconita ca si image tag: src='../img.png'.
+
+Un heading2 cu o scurta descriere: 'Pasionat de lectura, 
+de muzica jazz si de plimbari pe munte'
+
+O sectiune:   (puneti dummy data in faza initiala)
+h3 -> Portofoliu 
+ul -li -> Proiectele facute in domeniul Programarii
+ (Space project, Robot website, ToDo app etc...ce teme ati facut)
+
+O alta sectiune: (puneti dummy data in faza initiala)
+h3 -> Cunostinte
+ul - li -> Cunostintele acumulate in domeniul CS 
+(chiar si cele viitoare puteti pune in paranteza Angular (in progess));
+
+2. Faceti o functie care preia datele existente din html si le prezinta in consola.
+
+3. Faceti un obiect simplu in javascript care sa contina proprietati toate datele 
+de care aveti nevoie mai sus (dar cu datele voastre personale de data aceasta) ex:
+
+const persAndreiDuhanes = {
+	nume: 'Duhanes'
+	prenume: 'Andrei'
+	imageSrc: '../o-poza-reala-cu-andrei.png';
+	descriere..
+
+	portofoliu etc
+	cunostinte etc.
+}
+
+Selectati elementele si inserati detaliile din obiectul vostru.
+
+4. Creati o clasa care sa schimbe stilul paginii voastre 
+(dark-theme -> sa contina un background mai inchis si text de culoare deschisa).
+Puneti 2 butoane, Light-Theme si Dark-Theme, 
+iar cand apasati pe Dark-Theme introduceti acea clasa in pagina voastra.
+ Cand dati click pe Light Theme
+sa scoateti acea clasa.
+
+5. Inserati un footer element in pagina care sa contina data de astazi. 
+Folositi document.createElement('footer') si apoi document.appendChild..
+Valoarea pe care sa o contina e data de astazi, folositi new Date(), 
+si o introduceri in footerul nou creat.
+
+
+
+
+
+
+ 
+
+

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Pagina stiri</title>
+</head>
+
+<body>
+    <h1>Stiri</h1>
+
+    <div id="articoleContainer"></div>
+
+    <h1>Adaugare Articol</h1>
+
+    <form id="adaugaArticolForm" action="submit">
+        <label for="titlu">Titlu:</label>
+        <input type="text" id="titlu" name="titlu" required><br>
+
+        <label for="author">Autor:</label>
+        <input type="text" id="author" name="author" required><br>
+
+        <label for="dateCreated">Data Creare:</label>
+        <input type="date" id="dateCreated" name="dateCreated" required><br>
+
+        <label for="descriere">Descriere:</label>
+        <textarea id="descriere" name="descriere" required></textarea><br>
+
+        <label for="image">Imagine:</label>
+        <input type="text" id="image" name="image" required><br>
+
+        <label for="cuvinteCheie">Cuvinte Cheie :</label>
+        <input type="text" id="cuvinteCheie" name="cuvinteCheie"><br>
+
+        <button type="submit">Adauga Articol</button>
+    </form>
+    <label for="filtrareTitlu">Filtrare după Titlu:</label>
+    <input type="text" id="filtrareTitlu" name="filtrareTitlu">
+    <br>
+
+    <label for="filtrareAutor">Filtrare după Autor:</label>
+    <input type="text" id="filtrareAutor" name="filtrareAutor">
+    <br>
+
+    <button id="filtrareButton">Filtrează</button>
+   
+    <script src="./Tema.js"></script>
+    
+</body>
+</html>

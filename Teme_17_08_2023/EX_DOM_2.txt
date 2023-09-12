@@ -1,0 +1,35 @@
+EX DOM.
+
+Vom crea o interfata de administrare a utilizatorilor unui portal.
+ Interfata noastra va incarca o lista de utilizatori sub forma tabelara. 
+ Totodata vom avea optiunea de a introduce noi utilizatori prin intermediul unui formular.
+  In cele din urma vom putea sa stergem utilizatorii dar si extragerea unor date legate de ei.
+
+persoana de tip Persoana = {
+	id: string
+	nume: string
+	prenume: string
+	adresa_email: string
+	adresa: string
+	varsta: numar
+	lastCheckedIn: Date (o data in trecut, care reprezinta ultima data cand o accesat site-ul)
+	timeSpentOnSite: numar (in minute -> 1 -> 1 minut)
+}
+
+- Faceti o lista de astfel de persoane, folositi prototype (sau daca preferati si 
+va documentati sa folositi clase).
+- Creati html-ul de table cu coloane reprezentand toate proprietatile de tip Persoana.
+- Populati html-ul cu lista de persoane.
+- Creati un formular care sa contina toate field-urile de mai sus.
+- Adaugati o persoana noua la fiecare submit de formular (adaugati in lista si in tabel).
+- Adaugati event listner si o coloana de delete (pentru a putea stergere persoane).
+- Daca incercati sa adaugati un Nume si Prenume care exista deja, 
+sa nu puteti sa il adaugati si sa primiti un mesaj ca acest utilizator exista deja
+- Sa puteti da submit doar daca toate datale au fost completate
+
+Extra:
+
+- Atasati niste event listeners pe heading-ul de coloane ( nume si timeSpentOnSite)
+ astfel incat atunci cand dati click pe ele sa va sorteze tabelul crescator sau descrescator.
+   - Daca dati click pe titlul de Nume sa va ordoneze persoanele in tabel in ordine alfabetica.
+   - Daca dati pe timeSpentOnSite sa va ordoneze in functie de timpul petrecut de la numar mare la numar mic.
